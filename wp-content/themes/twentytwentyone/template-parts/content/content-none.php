@@ -40,7 +40,7 @@
 			printf(
 				'<p>' . wp_kses(
 					/* translators: %s: Link to WP admin new post page. */
-					__( 'Ready to publish your first post? <a href="%s">Get started here</a>.', 'twentytwentyone' ),
+					__( 'Are you ready to publish your first post? <a href="%s">Get started here</a>.', 'twentytwentyone' ),
 					array(
 						'a' => array(
 							'href' => array(),
